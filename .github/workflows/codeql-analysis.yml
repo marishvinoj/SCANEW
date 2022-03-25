@@ -1,12 +1,12 @@
 name: "Code Scanning - Action"
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  #push:
+    #branches: [ main ]
+  #pull_request:
+    #branches: [ main ]
   schedule:
-    - cron: '5 5 * * *'
+    - cron: '5 * * * *'
 
 jobs:
   analyze:
