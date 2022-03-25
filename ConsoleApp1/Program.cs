@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             var hello = "Hello World";
             var hello1 = "Hello World";
+            var hello2 = "Hello World";
             
         }
     }
